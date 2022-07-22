@@ -4,6 +4,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
 html{
     font-size: 62.5%;
 }
@@ -62,11 +70,12 @@ h1,h2,h3{
     background-repeat: no-repeat;
 }
 .navbar{
-    border: 2px solid white;
+    /* border: 2px solid white; */
     padding: 1em;
 }
 .logo{
     float: left;
+    padding-top: 0.3em;
 }
 .nav-ul{
     float: right;
@@ -83,6 +92,12 @@ h1,h2,h3{
 a:link,
 a:visited{
     color: #f4f4f4;
+}
+a{
+    padding-bottom: 0.2em;
+}
+a:hover{
+    border-bottom:1px solid #f4f4f4;
 }
 .navbar::after{
     content: "";
