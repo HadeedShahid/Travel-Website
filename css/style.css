@@ -65,9 +65,12 @@ h1,h2,h3{
     border-radius: 10em;
     
 }
-a{
-    
+.btnsecondary{
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 10em;
 }
+
 
 
 
@@ -141,4 +144,43 @@ p{
     text-transform: uppercase;
     text-align: center;
     
+}
+
+.showcase{
+    background-color: #ddd;
+    padding: 10em 0;
+}
+
+.row{
+    height: 350px;
+    /* border: 2px solid red; */
+    background-color: white;
+}
+.row1{
+    margin-bottom: 10em;
+}
+.row1 .img-box, .row2 .text-box{
+    float: left;
+    width: 50%;
+}
+.row2 .img-box, .row1 .text-box{
+    float: right;
+    width: 50%;
+}
+.img-box{
+    /* border: 2px solid black; */
+    height: 100%;
+    /* background-position: center; */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+}
+.text-box{
+    /* border: 2px solid black; */
+    padding: 3em;
+}
+.row .img-box img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
