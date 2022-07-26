@@ -203,7 +203,7 @@ p{
 .feature{
     float: left;
     width: 33.33333%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 2em;
     text-align: center;
 }
@@ -216,9 +216,36 @@ p{
 }
 .wrapper{
     /* border: 2px solid green; */
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.507);
 }
 .wrapper::after{
     content: '';
     display: block;
     clear: both;
+}
+.footer{
+    /* border: 2px solid red; */
+    padding: 2em;
+    text-align: center;
+    background-color: #263238;
+    color: white;
+}
+.foot-wrap{
+    /* border: 2px solid red; */
+    /* margin: 0 auto; */
+    margin-bottom: 0.5em;
+}
+.foot-wrap::after{
+    /* border: 2px solid red;
+    content: '';
+    display: block;
+    clear: both; */
+
+}
+.icons{
+    /* width: 33.33%; */
+    display: inline-block;
+    /* float: left; */
+    margin: 1em;
+    /* border: 2px solid red; */
 }
